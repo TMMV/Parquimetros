@@ -1,24 +1,54 @@
-# This is a template for a Python scraper on morph.io (https://morph.io)
-# including some code snippets below that you should find helpful
+#!/usr/bin/env python
+# -*- coding: utf-8 -*
 
-# import scraperwiki
-# import lxml.html
-#
-# # Read in a page
-# html = scraperwiki.scrape("http://foo.com")
-#
-# # Find something on the page using css selectors
-# root = lxml.html.fromstring(html)
-# root.cssselect("div[align='left']")
-#
-# # Write out to the sqlite database using scraperwiki library
-# scraperwiki.sqlite.save(unique_keys=['name'], data={"name": "susan", "occupation": "software developer"})
-#
-# # An arbitrary query against the database
-# scraperwiki.sql.select("* from data where 'name'='peter'")
+from bs4 import BeautifulSoup
+import requests
+import re
+import json
+from ftfy import fix_text
+import os
+import datetime
 
-# You don't have to do things with the ScraperWiki and lxml libraries.
-# You can use whatever libraries you want: https://morph.io/documentation/python
-# All that matters is that your final data is written to an SQLite database
-# called "data.sqlite" in the current working directory which has at least a table
-# called "data".
+URL = 'http://www.cm-porto.pt/ruas-tarifadas'
+response = requests.get(URL, verify=False,timeout=10)
+soup = BeautifulSoup(response.text, 'html.parser')
+scripts = soup.find_all('script')
+
+pTextFilename = 'parquimetros.json'
+data = {}
+if (os.path.isfile(pTextFilename)):
+	parquimetrosFile = open(pTextFilename,"r")
+	data = json.load(parquimetrosFile)
+	parquimetrosFile.close()
+
+currentDate = datetime.date.today().strftime("%d-%m-%Y")
+
+for script in scripts:
+	scriptText = script.text
+	#print(scriptText)
+	roadTemp = re.findall(r"title:( *)'(.*?)',", script.text)
+	roads = []
+	for road in roadTemp:
+		#roads.append(fix_text(road[1].lstrip()).encode('utf-8'))
+		roads.append(fix_text(road[1].lstrip(), normalization='NFKC').encode('utf-8').replace('Ã¡','á')) # oh god it burns
+
+	coords = re.findall('LatLng\((.*?)\)',script.text)
+	coords = coords[:-2]
+
+	zipped = zip(roads, coords)
+
+	finalDict = []
+	for location in zipped:
+		finalDict.append({
+			"street": location[0],
+			"coords" : location[1]
+		})
+
+	if len(finalDict) > 0:
+		break
+
+data[currentDate] = finalDict
+
+parquimetrosFile = open(pTextFilename,"w")
+json.dump(data, parquimetrosFile,  ensure_ascii=False,encoding="utf-8", indent=4)
+parquimetrosFile.close()
