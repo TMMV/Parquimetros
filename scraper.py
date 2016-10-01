@@ -42,7 +42,8 @@ for script in scripts:
 	for location in zipped:
 		finalDict.append({
 			"street": location[0],
-			"coords" : location[1]
+			"longitude": location[1].split(",")[0],
+            "latitude": location[1].split(",")[1].lstrip()
 		})
 
 	if len(finalDict) > 0:
@@ -56,10 +57,10 @@ parquimetrosFile.close()
 
 # save in sqlite too
 for entry in parquimetros[currentDate]:
-    print(entry)
     tableEntry = {
         "date": currentDate,
         "street": entry["street"].decode('utf-8'),
-        "coords" : entry["coords"]
+        "longitude": entry["longitude"],
+        "latitude": entry["latitude"]
     }
-    scraperwiki.sql.save(unique_keys=['date','street','coords'], data=tableEntry)
+    scraperwiki.sql.save(unique_keys=['date','street','longitude','latitude'], data=tableEntry)

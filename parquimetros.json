@@ -1,444 +1,554 @@
 {
     "01-10-2016": [
         {
-            "street": "Praça da República", 
-            "coords": "41.154466, -8.61329"
-        }, 
-        {
-            "street": "Rua do Universo", 
-            "coords": "41.157944, -8.629105"
-        }, 
-        {
-            "street": "Avenida da Boavista ", 
-            "coords": "41.162489, -8.655923"
-        }, 
-        {
-            "street": "Praça Coronel Pacheco", 
-            "coords": "41.151109, -8.615106"
-        }, 
-        {
-            "street": "Campo dos Mártires da Pátria", 
-            "coords": "41.145213, -8.616166"
-        }, 
-        {
-            "street": "Campo 24 de Agosto", 
-            "coords": "41.149216, -8.598717"
-        }, 
-        {
-            "street": "Praça do Bom Sucesso", 
-            "coords": "41.155195, -8.628608"
-        }, 
-        {
-            "street": "Rua Alfredo Magalhães", 
-            "coords": "41.154419, -8.609539"
-        }, 
-        {
-            "street": "Rua Alferes Malheiro", 
-            "coords": "41.151897, -8.610128"
-        }, 
-        {
-            "street": "Rua de Mouzinho da Silveira", 
-            "coords": "41.143492, -8.613196"
-        }, 
-        {
-            "street": "Rua da Regeneração", 
-            "coords": "41.156181, -8.611908"
-        }, 
-        {
-            "street": "Rua da Constituição", 
-            "coords": "41.163157, -8.614509"
-        }, 
-        {
-            "street": "Rua de Camões", 
-            "coords": "41.155684, -8.609997"
-        }, 
-        {
-            "street": "Rua Miguel Bombarda", 
-            "coords": "41.149652, -8.620874"
-        }, 
-        {
-            "street": "Rua do Paraíso", 
-            "coords": "41.157327, -8.609547"
-        }, 
-        {
-            "street": "Rua Ferreira Borges", 
-            "coords": "41.141674, -8.615259"
-        }, 
-        {
-            "street": "Praça de S. Lázaro", 
-            "coords": "41.157944, -8.629105"
-        }, 
-        {
-            "street": "Praça dos Poveiros", 
-            "coords": "41.146111, -8.603918"
-        }, 
-        {
-            "street": "Rua Ricardo Jorge", 
-            "coords": "41.150271, -8.612078"
-        }, 
-        {
-            "street": "Rua do Duque de Loulé", 
-            "coords": "41.144061, -8.604928"
-        }, 
-        {
-            "street": "Rua da Torrinha", 
-            "coords": "41.152631, -8.62081"
-        }, 
-        {
-            "street": "Praça Infante D. Henrique ", 
-            "coords": "41.14140628491841, -8.61482979852292"
-        }, 
-        {
-            "street": "Rua Dr. António Luís Gomes", 
-            "coords": "41.150063, -8.610271"
-        }, 
-        {
-            "street": "Rua Nova da Alfândega", 
-            "coords": "41.14101284092852, -8.617593766517643"
-        }, 
-        {
-            "street": "Rua Gonçalo Cristóvão", 
-            "coords": "41.153516, -8.608222"
-        }, 
-        {
-            "street": "Rua de Entreparedes", 
-            "coords": "41.14517, -8.606024"
-        }, 
-        {
-            "street": "Rua do Cativo", 
-            "coords": "41.14432, -8.608458"
-        }, 
-        {
-            "street": "Rua das Carmelitas", 
-            "coords": "41.146401, -8.614391"
-        }, 
-        {
+            "latitude": "-8.622204", 
             "street": "Rua da Maternidade", 
-            "coords": "41.151211, -8.622204"
+            "longitude": "41.151211"
         }, 
         {
-            "street": "Rua do Rosário", 
-            "coords": "41.149652, -8.620874"
-        }, 
-        {
-            "street": "Rua Fernandes Tomás", 
-            "coords": "41.149522, -8.604461"
-        }, 
-        {
-            "street": "Rua D. João IV", 
-            "coords": "41.151014, -8.60225"
-        }, 
-        {
-            "street": "Rua Prof. Vicente José de Carvalho", 
-            "coords": "41.146806, -8.617767"
-        }, 
-        {
-            "street": "Rua da Conceição", 
-            "coords": "41.149979, -8.614062"
-        }, 
-        {
-            "street": "Largo do Viriato", 
-            "coords": "41.145784, -8.620118"
-        }, 
-        {
-            "street": "Rua do Rosário", 
-            "coords": "41.149652, -8.620874"
-        }, 
-        {
-            "street": "Rua de Alexandre Herculano", 
-            "coords": "41.143877, -8.604396"
-        }, 
-        {
-            "street": "Largo do Bom Sucesso", 
-            "coords": "41.154397, -8.628353"
-        }, 
-        {
-            "street": "Rua da Firmeza", 
-            "coords": "41.150968, -8.603698"
-        }, 
-        {
-            "street": "Rua Guedes de Azevedo", 
-            "coords": "41.152208, -8.606423"
-        }, 
-        {
-            "street": "Rua de Ramalho Ortigão", 
-            "coords": "41.149413, -8.611235"
-        }, 
-        {
-            "street": "Rua Antero de Quental", 
-            "coords": "41.161227, -8.611459"
-        }, 
-        {
-            "street": "Rua Gonçalo Sampaio", 
-            "coords": "41.154289, -8.631463"
-        }, 
-        {
-            "street": "Rua de Campinho", 
-            "coords": "41.145956, -8.604775"
-        }, 
-        {
-            "street": "Rua do Bonjardim", 
-            "coords": "41.153823, -8.60783"
-        }, 
-        {
-            "street": "Rua Júlio Dinis", 
-            "coords": "41.152882, -8.626303"
-        }, 
-        {
+            "latitude": "-8.609274", 
             "street": "Rua de Saraiva de Carvalho", 
-            "coords": "41.143262, -8.609274"
+            "longitude": "41.143262"
         }, 
         {
-            "street": "Rua Jorge Viterbo", 
-            "coords": "41.146775, -8.624771"
-        }, 
-        {
-            "street": "Rua Rodrigues Lobo", 
-            "coords": "41.153924, -8.627296"
-        }, 
-        {
-            "street": "Rua José Falcão", 
-            "coords": "41.149211, -8.614199"
-        }, 
-        {
-            "street": "Rua de Ceuta", 
-            "coords": "41.148379, -8.614152"
-        }, 
-        {
-            "street": "Rua do Campo Alegre", 
-            "coords": "41.15283, -8.637532"
-        }, 
-        {
-            "street": "Rua do Gólgota", 
-            "coords": "41.151173, -8.634462"
-        }, 
-        {
-            "street": "Rua João Pedro Ribeiro", 
-            "coords": "41.161045, -8.607385"
-        }, 
-        {
-            "street": "Av. de Rodrigues de Freitas", 
-            "coords": "41.145787, -8.600818"
-        }, 
-        {
-            "street": "Rua da Boavista", 
-            "coords": "41.156177, -8.618649"
-        }, 
-        {
-            "street": "Rua do Bom Sucesso", 
-            "coords": "41.153318, -8.628688"
-        }, 
-        {
-            "street": "Rua do Dro Alves da Veiga", 
-            "coords": "41.149235, -8.603174"
-        }, 
-        {
-            "street": "Rua de Sá da Bandeira", 
-            "coords": "41.149447, -8.607507"
-        }, 
-        {
-            "street": "Rua Visconde de Bóbeda", 
-            "coords": "41.146406, -8.600393"
-        }, 
-        {
-            "street": "Via Panorâmica Edgar Cardoso", 
-            "coords": "41.150774, -8.637938"
-        }, 
-        {
-            "street": "Rua da Meditação", 
-            "coords": "41.157012, -8.63081"
-        }, 
-        {
-            "street": "Rua do Breiner", 
-            "coords": "41.150725, -8.621087"
-        }, 
-        {
-            "street": "Rua da Lapa", 
-            "coords": "41.155961, -8.613209"
-        }, 
-        {
-            "street": "Rua de Santa Isabel", 
-            "coords": "41.156312, -8.624074"
-        }, 
-        {
-            "street": "Rua Santo Ildefonso", 
-            "coords": "41.146754, -8.602965"
-        }, 
-        {
-            "street": "Rua Santa Catarina", 
-            "coords": "41.153478, -8.604749"
-        }, 
-        {
-            "street": "Rua Damião de Góis ", 
-            "coords": "41.161953, -8.612893"
-        }, 
-        {
-            "street": "Largo do Cruzinho", 
-            "coords": "41.153117, -8.631642"
-        }, 
-        {
-            "street": "Avenida de França", 
-            "coords": "41.162866, -8.627654"
-        }, 
-        {
-            "street": "Pátio do Bolhão", 
-            "coords": "41.151129, -8.607402"
-        }, 
-        {
-            "street": "Rua da Picaria", 
-            "coords": "41.149207, -8.612987"
-        }, 
-        {
-            "street": "Rua Alberto Aires de Gouveia", 
-            "coords": "41.146615, -8.620291"
-        }, 
-        {
-            "street": "Rua de Clemente Menéres", 
-            "coords": "41.148624, -8.619127"
-        }, 
-        {
-            "street": "Rua Mouzinho da Silveira", 
-            "coords": "41.143492, -8.613196"
-        }, 
-        {
-            "street": "Rua da Bolsa", 
-            "coords": "41.141683, -8.616006"
-        }, 
-        {
-            "street": "Largo Ferreira Lapa", 
-            "coords": "41.15588, -8.6287"
-        }, 
-        {
-            "street": "Praça da República", 
-            "coords": "41.154466, -8.61329"
-        }, 
-        {
-            "street": "Rua das Estrelas", 
-            "coords": "41.150573, -8.639676"
-        }, 
-        {
-            "street": "Rua 5 de Outubro", 
-            "coords": "41.161467, -8.632041"
-        }, 
-        {
-            "street": "Rua Faria Guimarães", 
-            "coords": "41.163941, -8.606353"
-        }, 
-        {
-            "street": "Rua de Agramonte", 
-            "coords": "41.157082, -8.631844"
-        }, 
-        {
-            "street": "Rua de S. Brás", 
-            "coords": "41.159645, -8.610346"
-        }, 
-        {
-            "street": "Rua de João de Deus", 
-            "coords": "41.162341, -8.638357"
-        }, 
-        {
-            "street": "Rua General Silveira", 
-            "coords": "41.150433, -8.614729"
-        }, 
-        {
-            "street": "Rua do Comércio do Porto", 
-            "coords": "41.1418, -8.616636"
-        }, 
-        {
-            "street": "Rua Nossa Senhora de Fátima", 
-            "coords": "41.159465, -8.62569"
-        }, 
-        {
-            "street": "Rua de Passos Manuel", 
-            "coords": "41.146946, -8.606407"
-        }, 
-        {
-            "street": "Rua da Alegria", 
-            "coords": "41.155932, -8.602458"
-        }, 
-        {
-            "street": "Rua Plácido Costa", 
-            "coords": "41.179155, -8.601258"
-        }, 
-        {
-            "street": "Rua da Escola Normal", 
-            "coords": "41.15472, -8.603851"
-        }, 
-        {
-            "street": "Rua do Estevão", 
-            "coords": "41.150397, -8.609825"
-        }, 
-        {
+            "latitude": "-8.599359", 
             "street": "Rua Santos Pousada", 
-            "coords": "41.155018, -8.599359"
+            "longitude": "41.155018"
         }, 
         {
-            "street": "Rua do Almada", 
-            "coords": "41.149652, -8.612123"
-        }, 
-        {
-            "street": "Rua de 31 de Janeiro", 
-            "coords": "41.146198, -8.60707"
-        }, 
-        {
-            "street": "Largo da Lapa", 
-            "coords": "41.157382, -8.612456"
-        }, 
-        {
-            "street": "Praça General Humberto Delgado", 
-            "coords": "41.149258, -8.6108"
-        }, 
-        {
+            "latitude": "-8.618184", 
             "street": "Rua de Cedofeita", 
-            "coords": "41.152756, -8.618184"
+            "longitude": "41.152756"
         }, 
         {
+            "latitude": "-8.62569", 
+            "street": "Rua Nossa Senhora de Fátima", 
+            "longitude": "41.159465"
+        }, 
+        {
+            "latitude": "-8.614199", 
+            "street": "Rua José Falcão", 
+            "longitude": "41.149211"
+        }, 
+        {
+            "latitude": "-8.624074", 
+            "street": "Rua de Santa Isabel", 
+            "longitude": "41.156312"
+        }, 
+        {
+            "latitude": "-8.629105", 
+            "street": "Praça de S. Lázaro", 
+            "longitude": "41.157944"
+        }, 
+        {
+            "latitude": "-8.603918", 
+            "street": "Praça dos Poveiros", 
+            "longitude": "41.146111"
+        }, 
+        {
+            "latitude": "-8.634462", 
+            "street": "Rua do Gólgota", 
+            "longitude": "41.151173"
+        }, 
+        {
+            "latitude": "-8.606353", 
+            "street": "Rua Faria Guimarães", 
+            "longitude": "41.163941"
+        }, 
+        {
+            "latitude": "-8.655923", 
+            "street": "Avenida da Boavista ", 
+            "longitude": "41.162489"
+        }, 
+        {
+            "latitude": "-8.639676", 
+            "street": "Rua das Estrelas", 
+            "longitude": "41.150573"
+        }, 
+        {
+            "latitude": "-8.607402", 
+            "street": "Pátio do Bolhão", 
+            "longitude": "41.151129"
+        }, 
+        {
+            "latitude": "-8.628688", 
+            "street": "Rua do Bom Sucesso", 
+            "longitude": "41.153318"
+        }, 
+        {
+            "latitude": "-8.620874", 
+            "street": "Rua do Rosário", 
+            "longitude": "41.149652"
+        }, 
+        {
+            "latitude": "-8.600393", 
+            "street": "Rua Visconde de Bóbeda", 
+            "longitude": "41.146406"
+        }, 
+        {
+            "latitude": "-8.608458", 
+            "street": "Rua do Cativo", 
+            "longitude": "41.14432"
+        }, 
+        {
+            "latitude": "-8.604396", 
+            "street": "Rua de Alexandre Herculano", 
+            "longitude": "41.143877"
+        }, 
+        {
+            "latitude": "-8.615106", 
+            "street": "Praça Coronel Pacheco", 
+            "longitude": "41.151109"
+        }, 
+        {
+            "latitude": "-8.615738", 
             "street": "Rua dos Bragas", 
-            "coords": "41.152722, -8.615738"
+            "longitude": "41.152722"
         }, 
         {
-            "street": "Rua Álvares Cabral", 
-            "coords": "41.154764, -8.616425"
+            "latitude": "-8.60225", 
+            "street": "Rua D. João IV", 
+            "longitude": "41.151014"
         }, 
         {
-            "street": "Rua de Latino Coelho", 
-            "coords": "41.159685, -8.601892"
+            "latitude": "-8.611908", 
+            "street": "Rua da Regeneração", 
+            "longitude": "41.156181"
         }, 
         {
-            "street": "Rua Augusto Luso", 
-            "coords": "41.156954, -8.622756"
+            "latitude": "-8.637938", 
+            "street": "Via Panorâmica Edgar Cardoso", 
+            "longitude": "41.150774"
         }, 
         {
-            "street": "Rua de S. Filipe de Nery", 
-            "coords": "41.145971, -8.614138"
+            "latitude": "-8.61329", 
+            "street": "Praça da República", 
+            "longitude": "41.154466"
         }, 
         {
-            "street": "Travessa de S. Carlos", 
-            "coords": "41.151627, -8.614228"
+            "latitude": "-8.614062", 
+            "street": "Rua da Conceição", 
+            "longitude": "41.149979"
         }, 
         {
+            "latitude": "-8.631463", 
+            "street": "Rua Gonçalo Sampaio", 
+            "longitude": "41.154289"
+        }, 
+        {
+            "latitude": "-8.609825", 
+            "street": "Rua do Estevão", 
+            "longitude": "41.150397"
+        }, 
+        {
+            "latitude": "-8.609997", 
+            "street": "Rua de Camões", 
+            "longitude": "41.155684"
+        }, 
+        {
+            "latitude": "-8.632041", 
+            "street": "Rua 5 de Outubro", 
+            "longitude": "41.161467"
+        }, 
+        {
+            "latitude": "-8.618649", 
             "street": "Rua da Boavista", 
-            "coords": "41.156177, -8.618649"
+            "longitude": "41.156177"
         }, 
         {
-            "street": "Rua Arquiteto Marques da Silva", 
-            "coords": "41.15349, -8.630672"
-        }, 
-        {
-            "street": "Rua de São João", 
-            "coords": "41.14144, -8.613438"
-        }, 
-        {
-            "street": "Rua Chã", 
-            "coords": "41.143968, -8.609969"
-        }, 
-        {
-            "street": "Rua da Restauração", 
-            "coords": "41.145506, -8.624995"
-        }, 
-        {
+            "latitude": "-8.60783", 
             "street": "Rua do Bonjardim", 
-            "coords": "41.153823, -8.60783"
+            "longitude": "41.153823"
+        }, 
+        {
+            "latitude": "-8.607385", 
+            "street": "Rua João Pedro Ribeiro", 
+            "longitude": "41.161045"
+        }, 
+        {
+            "latitude": "-8.609547", 
+            "street": "Rua do Paraíso", 
+            "longitude": "41.157327"
+        }, 
+        {
+            "latitude": "-8.612893", 
+            "street": "Rua Damião de Góis ", 
+            "longitude": "41.161953"
+        }, 
+        {
+            "latitude": "-8.612987", 
+            "street": "Rua da Picaria", 
+            "longitude": "41.149207"
+        }, 
+        {
+            "latitude": "-8.607507", 
+            "street": "Rua de Sá da Bandeira", 
+            "longitude": "41.149447"
+        }, 
+        {
+            "latitude": "-8.615259", 
+            "street": "Rua Ferreira Borges", 
+            "longitude": "41.141674"
+        }, 
+        {
+            "latitude": "-8.601892", 
+            "street": "Rua de Latino Coelho", 
+            "longitude": "41.159685"
+        }, 
+        {
+            "latitude": "-8.604775", 
+            "street": "Rua de Campinho", 
+            "longitude": "41.145956"
+        }, 
+        {
+            "latitude": "-8.63081", 
+            "street": "Rua da Meditação", 
+            "longitude": "41.157012"
+        }, 
+        {
+            "latitude": "-8.610271", 
+            "street": "Rua Dr. António Luís Gomes", 
+            "longitude": "41.150063"
+        }, 
+        {
+            "latitude": "-8.627654", 
+            "street": "Avenida de França", 
+            "longitude": "41.162866"
+        }, 
+        {
+            "latitude": "-8.600818", 
+            "street": "Av. de Rodrigues de Freitas", 
+            "longitude": "41.145787"
+        }, 
+        {
+            "latitude": "-8.603698", 
+            "street": "Rua da Firmeza", 
+            "longitude": "41.150968"
+        }, 
+        {
+            "latitude": "-8.613438", 
+            "street": "Rua de São João", 
+            "longitude": "41.14144"
+        }, 
+        {
+            "latitude": "-8.631844", 
+            "street": "Rua de Agramonte", 
+            "longitude": "41.157082"
+        }, 
+        {
+            "latitude": "-8.603851", 
+            "street": "Rua da Escola Normal", 
+            "longitude": "41.15472"
+        }, 
+        {
+            "latitude": "-8.616425", 
+            "street": "Rua Álvares Cabral", 
+            "longitude": "41.154764"
+        }, 
+        {
+            "latitude": "-8.614509", 
+            "street": "Rua da Constituição", 
+            "longitude": "41.163157"
+        }, 
+        {
+            "latitude": "-8.603174", 
+            "street": "Rua do Dro Alves da Veiga", 
+            "longitude": "41.149235"
+        }, 
+        {
+            "latitude": "-8.61482979852292", 
+            "street": "Praça Infante D. Henrique ", 
+            "longitude": "41.14140628491841"
+        }, 
+        {
+            "latitude": "-8.616166", 
+            "street": "Campo dos Mártires da Pátria", 
+            "longitude": "41.145213"
+        }, 
+        {
+            "latitude": "-8.604928", 
+            "street": "Rua do Duque de Loulé", 
+            "longitude": "41.144061"
+        }, 
+        {
+            "latitude": "-8.624995", 
+            "street": "Rua da Restauração", 
+            "longitude": "41.145506"
+        }, 
+        {
+            "latitude": "-8.606423", 
+            "street": "Rua Guedes de Azevedo", 
+            "longitude": "41.152208"
+        }, 
+        {
+            "latitude": "-8.620118", 
+            "street": "Largo do Viriato", 
+            "longitude": "41.145784"
+        }, 
+        {
+            "latitude": "-8.608222", 
+            "street": "Rua Gonçalo Cristóvão", 
+            "longitude": "41.153516"
+        }, 
+        {
+            "latitude": "-8.629105", 
+            "street": "Rua do Universo", 
+            "longitude": "41.157944"
+        }, 
+        {
+            "latitude": "-8.620874", 
+            "street": "Rua do Rosário", 
+            "longitude": "41.149652"
+        }, 
+        {
+            "latitude": "-8.624771", 
+            "street": "Rua Jorge Viterbo", 
+            "longitude": "41.146775"
+        }, 
+        {
+            "latitude": "-8.618649", 
+            "street": "Rua da Boavista", 
+            "longitude": "41.156177"
+        }, 
+        {
+            "latitude": "-8.614152", 
+            "street": "Rua de Ceuta", 
+            "longitude": "41.148379"
+        }, 
+        {
+            "latitude": "-8.598717", 
+            "street": "Campo 24 de Agosto", 
+            "longitude": "41.149216"
+        }, 
+        {
+            "latitude": "-8.602458", 
+            "street": "Rua da Alegria", 
+            "longitude": "41.155932"
+        }, 
+        {
+            "latitude": "-8.628608", 
+            "street": "Praça do Bom Sucesso", 
+            "longitude": "41.155195"
+        }, 
+        {
+            "latitude": "-8.637532", 
+            "street": "Rua do Campo Alegre", 
+            "longitude": "41.15283"
+        }, 
+        {
+            "latitude": "-8.604749", 
+            "street": "Rua Santa Catarina", 
+            "longitude": "41.153478"
+        }, 
+        {
+            "latitude": "-8.612456", 
+            "street": "Largo da Lapa", 
+            "longitude": "41.157382"
+        }, 
+        {
+            "latitude": "-8.610346", 
+            "street": "Rua de S. Brás", 
+            "longitude": "41.159645"
+        }, 
+        {
+            "latitude": "-8.613196", 
+            "street": "Rua de Mouzinho da Silveira", 
+            "longitude": "41.143492"
+        }, 
+        {
+            "latitude": "-8.61329", 
+            "street": "Praça da República", 
+            "longitude": "41.154466"
+        }, 
+        {
+            "latitude": "-8.616006", 
+            "street": "Rua da Bolsa", 
+            "longitude": "41.141683"
+        }, 
+        {
+            "latitude": "-8.612123", 
+            "street": "Rua do Almada", 
+            "longitude": "41.149652"
+        }, 
+        {
+            "latitude": "-8.604461", 
+            "street": "Rua Fernandes Tomás", 
+            "longitude": "41.149522"
+        }, 
+        {
+            "latitude": "-8.613209", 
+            "street": "Rua da Lapa", 
+            "longitude": "41.155961"
+        }, 
+        {
+            "latitude": "-8.611459", 
+            "street": "Rua Antero de Quental", 
+            "longitude": "41.161227"
+        }, 
+        {
+            "latitude": "-8.614729", 
+            "street": "Rua General Silveira", 
+            "longitude": "41.150433"
+        }, 
+        {
+            "latitude": "-8.613196", 
+            "street": "Rua Mouzinho da Silveira", 
+            "longitude": "41.143492"
+        }, 
+        {
+            "latitude": "-8.638357", 
+            "street": "Rua de João de Deus", 
+            "longitude": "41.162341"
+        }, 
+        {
+            "latitude": "-8.606024", 
+            "street": "Rua de Entreparedes", 
+            "longitude": "41.14517"
+        }, 
+        {
+            "latitude": "-8.602965", 
+            "street": "Rua Santo Ildefonso", 
+            "longitude": "41.146754"
+        }, 
+        {
+            "latitude": "-8.60707", 
+            "street": "Rua de 31 de Janeiro", 
+            "longitude": "41.146198"
+        }, 
+        {
+            "latitude": "-8.614138", 
+            "street": "Rua de S. Filipe de Nery", 
+            "longitude": "41.145971"
+        }, 
+        {
+            "latitude": "-8.627296", 
+            "street": "Rua Rodrigues Lobo", 
+            "longitude": "41.153924"
+        }, 
+        {
+            "latitude": "-8.620874", 
+            "street": "Rua Miguel Bombarda", 
+            "longitude": "41.149652"
+        }, 
+        {
+            "latitude": "-8.611235", 
+            "street": "Rua de Ramalho Ortigão", 
+            "longitude": "41.149413"
+        }, 
+        {
+            "latitude": "-8.622756", 
+            "street": "Rua Augusto Luso", 
+            "longitude": "41.156954"
+        }, 
+        {
+            "latitude": "-8.601258", 
+            "street": "Rua Plácido Costa", 
+            "longitude": "41.179155"
+        }, 
+        {
+            "latitude": "-8.6108", 
+            "street": "Praça General Humberto Delgado", 
+            "longitude": "41.149258"
+        }, 
+        {
+            "latitude": "-8.609969", 
+            "street": "Rua Chã", 
+            "longitude": "41.143968"
+        }, 
+        {
+            "latitude": "-8.614228", 
+            "street": "Travessa de S. Carlos", 
+            "longitude": "41.151627"
+        }, 
+        {
+            "latitude": "-8.606407", 
+            "street": "Rua de Passos Manuel", 
+            "longitude": "41.146946"
+        }, 
+        {
+            "latitude": "-8.610128", 
+            "street": "Rua Alferes Malheiro", 
+            "longitude": "41.151897"
+        }, 
+        {
+            "latitude": "-8.612078", 
+            "street": "Rua Ricardo Jorge", 
+            "longitude": "41.150271"
+        }, 
+        {
+            "latitude": "-8.631642", 
+            "street": "Largo do Cruzinho", 
+            "longitude": "41.153117"
+        }, 
+        {
+            "latitude": "-8.630672", 
+            "street": "Rua Arquiteto Marques da Silva", 
+            "longitude": "41.15349"
+        }, 
+        {
+            "latitude": "-8.614391", 
+            "street": "Rua das Carmelitas", 
+            "longitude": "41.146401"
+        }, 
+        {
+            "latitude": "-8.62081", 
+            "street": "Rua da Torrinha", 
+            "longitude": "41.152631"
+        }, 
+        {
+            "latitude": "-8.617593766517643", 
+            "street": "Rua Nova da Alfândega", 
+            "longitude": "41.14101284092852"
+        }, 
+        {
+            "latitude": "-8.616636", 
+            "street": "Rua do Comércio do Porto", 
+            "longitude": "41.1418"
+        }, 
+        {
+            "latitude": "-8.6287", 
+            "street": "Largo Ferreira Lapa", 
+            "longitude": "41.15588"
+        }, 
+        {
+            "latitude": "-8.628353", 
+            "street": "Largo do Bom Sucesso", 
+            "longitude": "41.154397"
+        }, 
+        {
+            "latitude": "-8.620291", 
+            "street": "Rua Alberto Aires de Gouveia", 
+            "longitude": "41.146615"
+        }, 
+        {
+            "latitude": "-8.60783", 
+            "street": "Rua do Bonjardim", 
+            "longitude": "41.153823"
+        }, 
+        {
+            "latitude": "-8.621087", 
+            "street": "Rua do Breiner", 
+            "longitude": "41.150725"
+        }, 
+        {
+            "latitude": "-8.626303", 
+            "street": "Rua Júlio Dinis", 
+            "longitude": "41.152882"
+        }, 
+        {
+            "latitude": "-8.609539", 
+            "street": "Rua Alfredo Magalhães", 
+            "longitude": "41.154419"
+        }, 
+        {
+            "latitude": "-8.619127", 
+            "street": "Rua de Clemente Menéres", 
+            "longitude": "41.148624"
+        }, 
+        {
+            "latitude": "-8.617767", 
+            "street": "Rua Prof. Vicente José de Carvalho", 
+            "longitude": "41.146806"
         }
     ]
 }
