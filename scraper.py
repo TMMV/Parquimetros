@@ -42,8 +42,8 @@ for script in scripts:
 	for location in zipped:
 		finalDict.append({
 			"street": location[0],
-			"longitude": location[1].split(",")[0],
-            "latitude": location[1].split(",")[1].lstrip()
+			"latitude": location[1].split(",")[0],
+            "longitude": location[1].split(",")[1].lstrip()
 		})
 
 	if len(finalDict) > 0:
