@@ -8,6 +8,7 @@ import json
 from ftfy import fix_text
 import os
 import datetime
+import scraperwiki
 
 URL = 'http://www.cm-porto.pt/ruas-tarifadas'
 response = requests.get(URL, verify=False,timeout=10)
@@ -15,10 +16,10 @@ soup = BeautifulSoup(response.text, 'html.parser')
 scripts = soup.find_all('script')
 
 pTextFilename = 'parquimetros.json'
-data = {}
+parquimetros = {}
 if (os.path.isfile(pTextFilename)):
 	parquimetrosFile = open(pTextFilename,"r")
-	data = json.load(parquimetrosFile)
+	parquimetros = json.load(parquimetrosFile)
 	parquimetrosFile.close()
 
 currentDate = datetime.date.today().strftime("%d-%m-%Y")
@@ -47,8 +48,18 @@ for script in scripts:
 	if len(finalDict) > 0:
 		break
 
-data[currentDate] = finalDict
+parquimetros[currentDate] = finalDict
 
 parquimetrosFile = open(pTextFilename,"w")
-json.dump(data, parquimetrosFile,  ensure_ascii=False,encoding="utf-8", indent=4)
+json.dump(parquimetros, parquimetrosFile,  ensure_ascii=False,encoding="utf-8", indent=4)
 parquimetrosFile.close()
+
+# save in sqlite too
+for entry in parquimetros[currentDate]:
+    print(entry)
+    tableEntry = {
+        "date": currentDate,
+        "street": entry["street"].decode('utf-8'),
+        "coords" : entry["coords"]
+    }
+    scraperwiki.sql.save(unique_keys=['date','street','coords'], data=tableEntry)
