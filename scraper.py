@@ -19,7 +19,7 @@ pTextFilename = 'parquimetros.json'
 parquimetros = {}
 if (os.path.isfile(pTextFilename)):
 	parquimetrosFile = open(pTextFilename,"r")
-	parquimetros = json.load(parquimetrosFile)
+	parquimetros = json.load(parquimetrosFile,encoding="utf-8",)
 	parquimetrosFile.close()
 
 currentDate = datetime.date.today().strftime("%d-%m-%Y")
