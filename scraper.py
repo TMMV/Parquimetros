@@ -15,13 +15,7 @@ response = requests.get(URL, verify=False,timeout=10)
 soup = BeautifulSoup(response.text, 'html.parser')
 scripts = soup.find_all('script')
 
-pTextFilename = 'parquimetros.json'
 parquimetros = {}
-if (os.path.isfile(pTextFilename)):
-	parquimetrosFile = open(pTextFilename,"r")
-	parquimetros = json.load(parquimetrosFile,encoding="utf-8",)
-	parquimetrosFile.close()
-
 currentDate = datetime.date.today().strftime("%d-%m-%Y")
 
 for script in scripts:
@@ -50,10 +44,6 @@ for script in scripts:
 		break
 
 parquimetros[currentDate] = finalDict
-
-parquimetrosFile = open(pTextFilename,"w")
-json.dump(parquimetros, parquimetrosFile,  ensure_ascii=False,encoding="utf-8", indent=4)
-parquimetrosFile.close()
 
 # save in sqlite too
 for entry in parquimetros[currentDate]:
